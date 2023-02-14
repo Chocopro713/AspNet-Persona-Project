@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using PersonalWebProject.Models;
+using PersonalWebProject.Services;
 using System.Diagnostics;
 
 namespace PersonalWebProject.Controllers
@@ -7,20 +8,22 @@ namespace PersonalWebProject.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly RepositorioProyectos repositorioProyectos;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, RepositorioProyectos repositorioProyectos)
         {
             _logger = logger;
+            this.repositorioProyectos = repositorioProyectos;
         }
 
         public IActionResult Index()
         {
-            var persona = new Persona()
+            var proyectos = repositorioProyectos.ObtenerProyectos().Take(3).ToList();
+            var modelo = new HomeIndexDto()
             {
-                Nombre = "Choco Choco",
-                Edad = 21
+                Proyectos = proyectos,
             };
-            return View(persona);
+            return View(modelo);
         }
 
         public IActionResult Privacy()

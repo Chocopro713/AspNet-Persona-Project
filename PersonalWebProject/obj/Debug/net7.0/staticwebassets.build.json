@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2gse3bt6SSXrSGw2u35XC7z/LYArP4HPTpzKFB83dTk=",
+  "Hash": "/8REynjObSzu70LSsShkL63ii8nF2lnqexvjf6DyCvg=",
   "Source": "PersonalWebProject",
   "BasePath": "_content/PersonalWebProject",
   "Mode": "Default",
@@ -102,6 +102,23 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Proyectos\\PersonalWebProject\\PersonalWebProject\\wwwroot\\imagenes\\amazon.png",
+      "SourceId": "PersonalWebProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Proyectos\\PersonalWebProject\\PersonalWebProject\\wwwroot\\",
+      "BasePath": "_content/PersonalWebProject",
+      "RelativePath": "imagenes/amazon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\amazon.png"
+    },
+    {
       "Identity": "C:\\Proyectos\\PersonalWebProject\\PersonalWebProject\\wwwroot\\imagenes\\csharp.png",
       "SourceId": "PersonalWebProject",
       "SourceType": "Discovered",
@@ -136,6 +153,23 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\net7.png"
     },
     {
+      "Identity": "C:\\Proyectos\\PersonalWebProject\\PersonalWebProject\\wwwroot\\imagenes\\nytime.jpg",
+      "SourceId": "PersonalWebProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Proyectos\\PersonalWebProject\\PersonalWebProject\\wwwroot\\",
+      "BasePath": "_content/PersonalWebProject",
+      "RelativePath": "imagenes/nytime.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\nytime.jpg"
+    },
+    {
       "Identity": "C:\\Proyectos\\PersonalWebProject\\PersonalWebProject\\wwwroot\\imagenes\\Perfil.jpg",
       "SourceId": "PersonalWebProject",
       "SourceType": "Discovered",
@@ -151,6 +185,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\Perfil.jpg"
+    },
+    {
+      "Identity": "C:\\Proyectos\\PersonalWebProject\\PersonalWebProject\\wwwroot\\imagenes\\reddit.png",
+      "SourceId": "PersonalWebProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Proyectos\\PersonalWebProject\\PersonalWebProject\\wwwroot\\",
+      "BasePath": "_content/PersonalWebProject",
+      "RelativePath": "imagenes/reddit.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\reddit.png"
+    },
+    {
+      "Identity": "C:\\Proyectos\\PersonalWebProject\\PersonalWebProject\\wwwroot\\imagenes\\steam.jpg",
+      "SourceId": "PersonalWebProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Proyectos\\PersonalWebProject\\PersonalWebProject\\wwwroot\\",
+      "BasePath": "_content/PersonalWebProject",
+      "RelativePath": "imagenes/steam.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\steam.jpg"
     },
     {
       "Identity": "C:\\Proyectos\\PersonalWebProject\\PersonalWebProject\\wwwroot\\js\\site.js",

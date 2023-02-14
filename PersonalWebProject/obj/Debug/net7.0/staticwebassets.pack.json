@@ -21,12 +21,28 @@
       "PackagePath": "staticwebassets\\imagenes\\Perfil.jpg"
     },
     {
+      "Id": "C:\\Proyectos\\PersonalWebProject\\PersonalWebProject\\wwwroot\\imagenes\\amazon.png",
+      "PackagePath": "staticwebassets\\imagenes\\amazon.png"
+    },
+    {
       "Id": "C:\\Proyectos\\PersonalWebProject\\PersonalWebProject\\wwwroot\\imagenes\\csharp.png",
       "PackagePath": "staticwebassets\\imagenes\\csharp.png"
     },
     {
       "Id": "C:\\Proyectos\\PersonalWebProject\\PersonalWebProject\\wwwroot\\imagenes\\net7.png",
       "PackagePath": "staticwebassets\\imagenes\\net7.png"
+    },
+    {
+      "Id": "C:\\Proyectos\\PersonalWebProject\\PersonalWebProject\\wwwroot\\imagenes\\nytime.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\nytime.jpg"
+    },
+    {
+      "Id": "C:\\Proyectos\\PersonalWebProject\\PersonalWebProject\\wwwroot\\imagenes\\reddit.png",
+      "PackagePath": "staticwebassets\\imagenes\\reddit.png"
+    },
+    {
+      "Id": "C:\\Proyectos\\PersonalWebProject\\PersonalWebProject\\wwwroot\\imagenes\\steam.jpg",
+      "PackagePath": "staticwebassets\\imagenes\\steam.jpg"
     },
     {
       "Id": "C:\\Proyectos\\PersonalWebProject\\PersonalWebProject\\wwwroot\\js\\site.js",
