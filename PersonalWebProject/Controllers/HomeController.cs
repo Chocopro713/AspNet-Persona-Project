@@ -8,12 +8,14 @@ namespace PersonalWebProject.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly RepositorioProyectos repositorioProyectos;
+        private readonly IRepositorioProyectos repositorioProyectos;
+        private readonly IServicioEmail servicioEmail;
 
-        public HomeController(ILogger<HomeController> logger, RepositorioProyectos repositorioProyectos)
+        public HomeController(ILogger<HomeController> logger, IRepositorioProyectos repositorioProyectos, IServicioEmail servicioEmail)
         {
             _logger = logger;
             this.repositorioProyectos = repositorioProyectos;
+            this.servicioEmail = servicioEmail;
         }
 
         public IActionResult Index()
@@ -26,7 +28,27 @@ namespace PersonalWebProject.Controllers
             return View(modelo);
         }
 
-        public IActionResult Privacy()
+        public IActionResult Proyectos()
+        {
+            var proyectos = repositorioProyectos.ObtenerProyectos();
+            return View(proyectos);
+        }
+
+        [HttpGet]
+        public IActionResult Contacto()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Contacto(ContactoDTO contacto)
+        {
+            await servicioEmail.Enviar(contacto);
+            return RedirectToAction("Gracias");
+        }
+
+        [HttpGet]
+        public IActionResult Gracias()
         {
             return View();
         }

@@ -1,10 +1,12 @@
+using PersonalWebProject.Models;
 using PersonalWebProject.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddTransient<RepositorioProyectos>();
+builder.Services.AddTransient<IRepositorioProyectos, RepositorioProyectos>();
+builder.Services.AddTransient<IServicioEmail, ServicioEmailSendGrid>();
 
 var app = builder.Build();
 

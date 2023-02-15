@@ -29,3 +29,7 @@ C:\Proyectos\PersonalWebProject\PersonalWebProject\obj\Debug\net7.0\refint\Perso
 C:\Proyectos\PersonalWebProject\PersonalWebProject\obj\Debug\net7.0\PersonalWebProject.pdb
 C:\Proyectos\PersonalWebProject\PersonalWebProject\obj\Debug\net7.0\PersonalWebProject.genruntimeconfig.cache
 C:\Proyectos\PersonalWebProject\PersonalWebProject\obj\Debug\net7.0\ref\PersonalWebProject.dll
+C:\Proyectos\PersonalWebProject\PersonalWebProject\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Proyectos\PersonalWebProject\PersonalWebProject\bin\Debug\net7.0\SendGrid.dll
+C:\Proyectos\PersonalWebProject\PersonalWebProject\bin\Debug\net7.0\StarkbankEcdsa.dll
+C:\Proyectos\PersonalWebProject\PersonalWebProject\obj\Debug\net7.0\PersonalWebProject.csproj.CopyComplete
